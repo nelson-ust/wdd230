@@ -1,0 +1,79 @@
+body {
+    background-color: #ffffff;
+    margin: 5px 30px;
+    font-family: sans-serif;
+}
+
+/* styling for the header */
+header {
+    background-color: rgb(8, 96, 203);
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container {
+    padding: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.name-container {
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+/* styling for the main segment */
+main {
+    text-transform: capitalize;
+}
+
+.main-container {
+    margin: 0;
+}
+
+.course-name {
+    font-weight: bold;
+}
+
+.lesson-content {
+    padding: 0;
+}
+
+.caution-text {
+    font-style: italic;
+}
+
+
+/* styling for footer */
+footer {
+    background-color: rgb(8, 96, 203);
+    border-radius: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.footer-container {
+    margin: 0;
+}
+
+.copyright{
+    font-size: 20px;
+}
+
+.update-status{
+    font-size: 13px;
+    color: rgb(251, 251, 14);
+}
