@@ -1,7 +1,7 @@
 body {
     background-color: #ffffff;
-    margin: 5px 30px;
-    font-family: sans-serif;
+    margin: 5px 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* styling for the header */
@@ -64,6 +64,7 @@ footer {
     padding: 20px;
     color: #ffffff;
 }
+
 
 .footer-container {
     margin: 0;
