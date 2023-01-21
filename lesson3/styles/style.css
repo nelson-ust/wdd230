@@ -1,0 +1,165 @@
+body {
+    font-family: Poppins;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Abril Fatface";
+    font-weight: 100;
+    font-size: 30px;
+    padding: 5px;
+}
+
+nav {
+    background-color: #e2d4ad;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    justify-items: center;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.active {
+    color: #a36d27;
+}
+
+main {
+    padding: 50px;
+    margin-top: -40px;
+}
+
+.logo {
+    width: 200px;
+    border-radius: 100px;
+    border: 3px solid black;
+}
+
+.personas {
+    margin-bottom: 40px;
+}
+
+.persona h3 {
+    margin-bottom: -7px;
+}
+
+.pimg {
+    margin-bottom: -10px;
+}
+
+.scenarios {
+    text-align: left;
+    max-width: 450px;
+    margin: auto;
+}
+
+.colors {
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.colors th {
+    padding: 20px;
+}
+
+.colors td {
+    min-width: 120px;
+}
+
+.primary {
+    background-color: #e2d4ad;
+}
+
+.secondary {
+    background-color: #a36d27;
+}
+
+.accent1 {
+    color: white;
+    background-color: #6F1F1F;
+}
+
+.accent2 {
+    background-color: white;
+}
+
+.accent3 {
+    color: white;
+    background-color: black;
+}
+
+.headingfont {
+    font-family: 'Abril Fatface', Georgia, serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.paragraphfont {
+    font-family: Poppins, 'Times New Roman', sans-serif;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #e2d4ad;
+    padding: 10px;
+}
+
+
+/* Tablet Screen */
+
+@media only screen and (min-width: 37.5em) {
+    h1 {
+        font-size: 36px;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 auto;
+    }
+    nav a {
+        font-size: 20px;
+    }
+    .personas {
+        display: grid;
+        grid-template-columns: 200px auto;
+        grid-gap: 100px;
+        align-items: center;
+        margin-top: -25px;
+    }
+    .pimg {
+        grid-column: 1;
+    }
+    .persona {
+        grid-column: 2;
+        text-align: left;
+    }
+    .persona h3 {
+        margin-bottom: -5px;
+    }
+}
+
+
+/* Desktop Screen */
+
+@media only screen and (min-width: 60em) {
+    h1 {
+        font-size: 55px;
+    }
+    nav a {
+        font-size: 35px;
+    }
+}

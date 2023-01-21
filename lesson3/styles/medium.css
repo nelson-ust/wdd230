@@ -1,0 +1,46 @@
+@media only screen and (max-width: 640px) {
+  body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* header */
+  header {
+    background-color: rgb(8, 96, 203);
+    border-radius: 0;
+    text-transform: capitalize;
+  }
+
+  .header-container {
+    display: block;
+  }
+
+  .image-container {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .name-container {
+    padding: 2px;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  /* main */
+  .course-name {
+    text-align: center;
+  }
+  .caution-text {
+    text-align: center;
+    font-size: 12px;
+    color: #fc0202;
+  }
+
+  /* footer */
+  footer {
+    border-radius: 0;
+  }
+}
