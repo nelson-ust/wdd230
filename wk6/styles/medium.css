@@ -1,0 +1,208 @@
+/* Tablet Screen medium */
+
+@media only screen and (min-width: 37.5em) {
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: flex;
+    }
+    .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .icon {
+        display: block;
+    }
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    body {
+        font-family: Poppins;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    /* header */
+    h1 {
+        font-family: "Abril Fatface";
+        font-weight: 100;
+        font-size: 30px;
+        padding: 5px;
+    }
+    header {
+        background-color: #1e1a11;
+        padding: 10px;
+    }
+    .header-container {
+        display: flex;
+        justify-content: space-around;
+        color: #ffffff;
+    }
+    .logo {
+        display: flex;
+    }
+    .logo-img {
+        display: block;
+        max-width: 230px;
+        max-height: 95px;
+        width: auto;
+        height: auto;
+    }
+    .social-media-icon {
+        width: 20px;
+        height: 20px;
+        margin-top: 6px;
+    }
+    nav ul {
+        list-style-type: none;
+        overflow: hidden;
+        justify-items: center;
+        padding: 0;
+    }
+    nav ul li a {
+        display: block;
+        color: #f6f1f1;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .icon {
+        display: block;
+        background: #ffffff;
+        margin: 15px 0;
+        padding: 0 5px;
+        color: #000000;
+        font-size: 20px;
+    }
+    #myLinks {
+        display: none;
+    }
+    .date {
+        background: #a36d27;
+        margin: 10px;
+        padding: 5px;
+    }
+    .active {
+        color: #a36d27;
+    }
+    /* main */
+    main {
+        padding: 50px;
+        margin-top: -40px;
+    }
+    .event {
+        grid-area: event;
+    }
+    .hero {
+        grid-area: hero;
+        display: grid;
+        position: relative;
+    }
+    .hero-image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .hero-button {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background-color: #06d548;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .weather {
+        grid-area: weather;
+    }
+    .join {
+        grid-area: join;
+        display: block;
+    }
+    .news {
+        grid-area: news;
+    }
+    .spotlight {
+        grid-area: spotlight;
+        display: flex;
+        padding: 2px;
+    }
+    .spotlight1 {
+        width: 50%;
+        margin: -5px;
+    }
+    .spotlight2 {
+        width: 50%;
+        margin: -5px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-areas: 'hero hero hero' 'news news news' 'spotlight spotlight spotlight' 'join join join' 'event event weather';
+        gap: 10px;
+        padding: 10px;
+    }
+    .grid-container>div {
+        background-color: #edededcc;
+        border: #1e1a11 2px solid;
+        text-align: left;
+    }
+    .grid-container>div>div {
+        padding: 50px;
+        margin: 0 10px;
+        border: #999999 1px solid;
+    }
+    /* footer */
+    footer {
+        background-color: #1e1a11;
+        padding: 10px;
+    }
+    .footer>* {
+        flex: 1 100%;
+    }
+    .footer-container {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 30px 30px 20px 30px;
+        color: #f9f7f7;
+        justify-content: space-between;
+    }
+    .footer-content1 {
+        display: flex;
+    }
+    .footer-address {
+        margin: 20px;
+    }
+    .footer-text {
+        margin: -5px;
+    }
+    .copyright {
+        color: #f6f1f1;
+    }
+    .footer-bottom {
+        color: #f6f1f1;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .footer-base {
+        display: contents;
+    }
+    .footer-base>span {
+        margin-top: 15px;
+        display: block;
+    }
+}
