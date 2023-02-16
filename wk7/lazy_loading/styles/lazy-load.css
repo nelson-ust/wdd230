@@ -1,0 +1,14 @@
+.image-container {
+    display: grid;
+    place-items: center;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.image.loaded {
+    opacity: 1;
+}
