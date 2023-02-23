@@ -1,0 +1,85 @@
+/* Set font family and size for the entire page */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    margin: 40px 100px;
+}
+
+
+/* Style the table */
+
+#accounts {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* Style the table caption */
+
+#accounts caption {
+    font-weight: bold;
+    font-size: 35px;
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+/* Style the table headers */
+
+#accounts thead {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: left;
+}
+
+.th {
+    background-color: #b3b1b1;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* Style the table data cells */
+
+#accounts td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.mark-pass {
+    font-size: 20px;
+    color: #0cee0c;
+    font-weight: bold;
+}
+
+.mark-fail {
+    font-size: 20px;
+    color: #ff0909;
+    font-weight: bold;
+}
+
+
+/* Style the alternating rows */
+
+#accounts tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #b3b1b1;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+.table-description {
+    text-align: center;
+}
