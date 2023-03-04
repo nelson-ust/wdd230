@@ -401,4 +401,66 @@ form {
   .thank-you p {
     font-size: 1.2rem;
   }
+
+   /* style for directory page */
+  /* Style for the directory container */
+.directory-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the cards */
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 30px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .card:hover{
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  /* Style for the company image */
+  .card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Style for the company name */
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the company address, phone number, and website */
+  .card p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .card p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Style for the membership level */
+  .card p:last-child {
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  /* Style for the business directory heading */
+  .directory-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  #directory {
+    place-content: center;
+    padding: 10px;
+  }
+  
 }
