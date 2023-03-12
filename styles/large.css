@@ -1,0 +1,640 @@
+    /* Desktop Screen large */
+
+    @media only screen and (min-width: 60em) {
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+            position: relative;
+        }
+
+        .topnav a {
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            display: flex;
+        }
+
+        .topnav a.icon {
+            background: black;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .icon {
+            display: block;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* body */
+        body {
+            font-family: Poppins;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* header */
+        h1 {
+            font-family: "Abril Fatface";
+            font-weight: 100;
+            font-size: 30px;
+            padding: 5px;
+            text-transform: capitalize;
+        }
+
+        header {
+            background-color: #1e1a11;
+            padding: 10px;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-around;
+            color: #ffffff;
+        }
+
+        .logo {
+            display: flex;
+        }
+
+        .logo-img {
+            display: block;
+            max-width: 230px;
+            max-height: 95px;
+            width: auto;
+            height: auto;
+        }
+
+        .social-media-container {
+            /* padding: 10px 0 0 100px; */
+            display: grid;
+        }
+
+        .social-media-icon {
+            margin: 6px;
+            padding: 0px 0 0 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            overflow: hidden;
+            justify-items: center;
+            padding: 5px;
+            /* background-color: rgb(255, 255, 255); */
+        }
+
+        nav ul li a {
+            color: #000000;
+            background-color: hwb(221deg 90% 9%);
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+
+        nav ul li a:hover {
+            color: #ec0c0c;
+            background-color: #4e4e4e;
+        }
+
+        .icon {
+            display: none;
+        }
+
+        #myLinks {
+            display: flex;
+        }
+
+        .header-title{
+            padding-left: 50px;
+        }
+
+        .header-logo{
+            width: 80px;
+            height: 80px;
+        }
+
+        .date {
+            background: #a36d27;
+            margin: 10px;
+            padding: 5px;
+            color: #ffffff;
+        }
+
+        .active {
+            color: #000000;
+            background-color: #06d548;
+        }
+
+        /* main */
+        main {
+            flex: 1;
+            padding: 50px;
+            margin-top: -40px;
+        }
+
+        .event {
+            grid-area: event;
+            padding: 10px;
+        }
+
+        .hero {
+            grid-area: hero;
+            display: grid;
+            position: relative;
+        }
+
+        .hero-image {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .hero-button {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        /* weather style starts */
+        .weather {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .weather h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        #weather-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #weather-info p {
+            font-size: 16px;
+            margin: 10px;
+        }
+
+        #icon {
+            width: 50px;
+            height: 50px;
+        }
+
+        #wind-speed {
+            margin-top: 20px;
+        }
+
+        #wind-chill {
+            margin-top: 10px;
+        }
+
+        /* weather style ends */
+        .join {
+            grid-area: join;
+            display: block;
+        }
+
+        #join-section {
+            text-align: center;
+            padding: 40px;
+            background-color: #f2f2f2;
+        }
+
+        #join-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        #join-section p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        #join-form {
+            display: block;
+            text-align: left;
+            padding: 40px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        #join-form label {
+            display: block;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        #join-form input[type="text"],
+        #join-form input[type="email"],
+        #join-form input[type="tel"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        #join-form button[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .news {
+            grid-area: news;
+        }
+
+        .spotlight {
+            grid-area: spotlight;
+            padding: 10px;
+            display: grid;
+        }
+
+        .spotlight1 {
+            width: auto;
+            display: block;
+        }
+
+        .spotlight2 {
+            width: auto;
+            display: block;
+        }
+
+        .spotlight3 {
+            width: auto;
+            display: block;
+        }
+
+        .spotlight {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .spotlight-icon {
+            font-size: 50px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .spotlight-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .spotlight-text {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-areas: 'event hero spotlight''weather hero spotlight''join news spotlight';
+            gap: 10px;
+            /* background-color: #2196F3; */
+            padding: 10px;
+        }
+
+        .grid-container>div {
+            background-color: #edededcc;
+            /* text-align: center; */
+            /* padding: 10px 0; */
+            border: #1e1a11 2px solid;
+            text-align: left;
+        }
+
+        .grid-container>div>div {
+            padding: 50px;
+            margin: 0 10px;
+            border: #999999 1px solid;
+        }
+
+        /* footer */
+        footer {
+            background-color: #1e1a11;
+            padding: 10px;
+            flex-shrink: 0;
+        }
+
+        .footer>* {
+            flex: 1 100%;
+        }
+
+        .footer-container {
+            display: flex;
+            flex-flow: row wrap;
+            padding: 30px 30px 20px 30px;
+            color: #f9f7f7;
+            justify-content: space-between;
+        }
+
+        .footer-content1 {
+            display: flex;
+        }
+
+        .footer-address {
+            margin: 20px;
+        }
+
+        .footer-text {
+            margin: -5px;
+        }
+
+        .copyright {
+            color: #f6f1f1;
+        }
+
+        .footer-bottom {
+            color: #f6f1f1;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .footer-base {
+            display: contents;
+        }
+
+        .footer-base>span {
+            margin-top: 15px;
+            display: block;
+        }
+
+        /* for the discover page */
+        .discover-container {
+            margin: 0;
+        }
+
+        .sub-section {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .demographics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 5px;
+        }
+
+        .demographics-item {
+            text-align: center;
+            background-color: #4e4e4e;
+            color: #f2f2f2;
+            padding: 10px;
+        }
+
+        .gallery {
+            display: inline-block;
+            /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 5px; */
+            width: 500px;
+            height: 500px;
+        }
+
+        .gallery-item {
+            text-align: center;
+            padding: 22px;
+            border: black 1px solid;
+        }
+
+        .gallery-image {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .gallery-image:hover {
+            opacity: 0.8;
+            /* reduce the opacity of the image */
+            transform: scale(1.1);
+            /* slightly scale up the image */
+            transition: all 0.3s ease;
+            /* add a smooth transition effect */
+        }
+
+        /* styling the join page */
+        /* Apply some basic styles to the form elements */
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        .sub-container {
+            display: flex;
+        }
+
+        label {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 0;
+            width: 100%;
+            text-align: left;
+        }
+
+        input,
+        textarea,
+        select {
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            padding: 0.5rem;
+            width: 100%;
+            display: grid;
+            margin-bottom: 20px;
+        }
+
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+            border-color: #69bde7;
+        }
+
+        input[type="submit"] {
+            background-color: #69bde7;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+            margin-top: 1rem;
+            transition: background-color 0.2s ease-in-out;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #5ab1d1;
+        }
+
+        /* Style the specific form elements as required */
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            font-size: 1.2rem;
+            padding: 0.75rem;
+        }
+
+        input[type="text"]:not([name="position"]) {
+            text-transform: capitalize;
+        }
+
+        input[type="email"] {
+            text-align: left;
+        }
+
+        input[type="tel"] {
+            text-align: right;
+        }
+
+        input[name="position"] {
+            text-transform: capitalize;
+        }
+
+        input[name="position"]:invalid {
+            border-color: red;
+        }
+
+        textarea {
+            height: 200px;
+        }
+
+        /* Style the membership levels section */
+        .membership-levels {
+            margin-top: 1rem;
+            width: 100%;
+        }
+
+        .membership-levels h3 {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .membership-levels p {
+            font-size: 1rem;
+        }
+
+        .membership-levels ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .membership-levels li {
+            margin-bottom: 1rem;
+        }
+
+        /* Style the "Thank you" page */
+        .thank-you {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .thank-you h1 {
+            font-size: 2rem;
+            margin-top: 0;
+        }
+
+        .thank-you p {
+            font-size: 1.2rem;
+        }
+
+        /* style for directory page */
+        /* Style for the directory container */
+        .directory-container {
+            /* max-width: 800px; */
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Style for the cards */
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 50px;
+            margin: 30px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .card:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        /* Style for the company image */
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        /* Style for the company name */
+        .card h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        /* Style for the company address, phone number, and website */
+        .card p {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .card p a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        /* Style for the membership level */
+        .card p:last-child {
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        /* Style for the business directory heading */
+        .directory-container h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        #directory {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            place-content: center;
+            padding: 10px;
+        }
+
+    }
