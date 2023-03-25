@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bountiful Foods</title>
+  <link rel="stylesheet" href="./styles/Index.css">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="fresh.html">Fresh</a></li>
+          <li><a href="AboutUs.html">About Us</a></li>
+        </ul>
+      </nav>
+      <div class="header-contact">
+        <p>123 Main St, Carlsbad, CA <span>(Phone: (123) 456-7890)</span></p>
+      </div>
+    </div>
+    <hr>
+    <div class="header-text">
+      <h1>Bountiful Foods</h1>
+      <p>Organic, locally grown foods</p>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <a href="./Fresh.html" class="make-button">Make Your Own Fruit Drink</a>
+    </section>
+    <section class="coastal-info">
+      <h2>Coastal Area Information</h2>
+      <p>Our food trucks cover the coastal area from Los Angeles to San Diego. Come visit us at one of our many
+        locations!</p>
+    </section>
+    <section class="weather-info">
+      <div class="weather-card" id="weather-card">
+        <p>Temperature: <span id="temp"></span></p>
+        <p>Condition: <span id="condition"></span></p>
+        <p>Humidity: <span id="humidity"></span></p>
+      </div>
+      <div class="forecast-card">
+        <p>3 Day Forecast:</p>
+        <ul>
+          <li><span class="day"></span> <span class="temp"></span></li>
+          <li><span class="day"></span> <span class="temp"></span></li>
+          <li><span class="day"></span> <span class="temp"></span></li>
+        </ul>
+      </div>
+    </section>
+    <section class="drink-count">
+      <h2>Specialty Drink Count</h2>
+      <p>You have submitted <span id="drink-count"></span> specialty drinks!</p>
+    </section>
+    <section class="social-media">
+      <div class="social-media-links">
+        <h2>Follow us on Social Media</h2>
+        <div class="links">
+        <a href="#"><img src="./images/facebook-icon.png" alt="Facebook" width="50"></a>
+        <a href="#"><img src="./images/instagram-icon.png" alt="Instagram" width="50"></a>
+        <a href="#"><img src="./images/twitter-icon.png" alt="Twitter" width="50"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <a href="#">
+          <img src="images/boutiful-logo.jpg" alt="Bountiful Foods" width="50">
+      </a>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fresh.html">Fresh</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-attributions">
+        <a href="attributions.html">Image attributions</a>
+      </div>
+      <div class="footer-last-modified">
+        Last modified: <span id="lastModified"></span>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="./js/Index.js"></script>
+</body>
+
+</html>

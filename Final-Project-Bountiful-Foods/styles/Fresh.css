@@ -1,0 +1,170 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #f00;
+}
+
+.active{
+  color:#f00;
+  font-weight: bold;
+}
+
+.header-text {
+  text-align: center;
+}
+
+main {
+  margin: 50px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(850px, 1fr));
+  grid-gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group select {
+  appearance: none;
+  background-color: #f5f5f5;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z'/%3E%3C/svg%3E");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+}
+
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  height: 100px;
+}
+
+#submit-btn {
+  background-color: rgb(5, 133, 28);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit-btn:hover {
+  background-color: #d00;
+}
+
+.order-output {
+  margin-top: 50px;
+}
+
+.order-output h2 {
+  margin-bottom: 20px;
+}
+
+#output {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+
+  /* footer */
+  footer {
+    margin-top: auto;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: rgb(12, 215, 26);
+    text-decoration: none;
+    list-style-type: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer-links > ul {
+    display: flex;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+
+  .footer-links > ul > li {
+    display: flex;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  footer a:hover {
+    color: #f00;
+  }
+  
