@@ -80,7 +80,7 @@ fetch(forecastUrl)
           const iconCode = forecast.weather[0].icon;
           const iconUrl = `https://openweathermap.org/img/w/${iconCode}.png`;
           return `
-                <li>
+                <li class="dayforcast">
                   <span class="day">${dayOfWeek}</span>
                   <img src="${iconUrl}" alt="Weather Icon">
                   <span class="temp">${temp}&deg;C</span>

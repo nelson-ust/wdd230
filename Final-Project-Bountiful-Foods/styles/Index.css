@@ -93,6 +93,14 @@ section.weather-info{
   justify-content: space-around;
 }
 
+
+.dayforcast{
+  background-color: rgb(75, 195, 15);
+  margin: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
 section.drink-count{
   border: #000000 1px solid;
   margin-top: 20px;
