@@ -3,7 +3,7 @@ const lastModified = document.getElementById("lastModified");
 // Get the current date and time
 const currentDate = new Date();
 // Set the text content of the lastModified element to the current date and time
-lastModified.textContent = `Last Updated: ${currentDate.toLocaleString()}`;
+lastModified.textContent = `${currentDate.toLocaleString()}`;
 
 
 

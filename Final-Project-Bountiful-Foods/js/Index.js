@@ -1,11 +1,9 @@
 // Get the span element with id="lastModified"
 const lastModified = document.getElementById("lastModified");
-
 // Get the current date and time
 const currentDate = new Date();
-
 // Set the text content of the lastModified element to the current date and time
-lastModified.textContent = `Last Updated: ${currentDate.toLocaleString()}`;
+lastModified.textContent = `${currentDate.toLocaleString()}`;
 
 // get weather data from OpenWeatherMap API
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&units=metric&appid=d3cb9e67d0615d06d30c5c8699d9af92";

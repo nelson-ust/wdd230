@@ -16,8 +16,6 @@ header {
 
 nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 nav ul li {
@@ -42,6 +40,11 @@ nav ul li a:hover {
 .header-text {
   text-align: center;
 }
+
+.header-text h1, .header-text p {
+  margin: 5px;
+}
+
 
 main {
   margin: 50px;
@@ -167,4 +170,46 @@ textarea {
   footer a:hover {
     color: #f00;
   }
+
+
+  /* small devices (phone, 576px and up) */
+@media screen and (max-width: 880px) {
+  .footer-links > ul {
+    display: block;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #000000;
+  }
+
+  .header{
+    display: block;
+    text-align: center;
+  }
+
+  nav ul li a {
+    color: rgb(244, 234, 234);
+    text-decoration: none;
+    padding: 0 ;
+  }
+
+  .form-container {
+    display: block;
+    width: 100%;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+}
   

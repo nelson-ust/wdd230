@@ -14,15 +14,13 @@ header {
   padding: 20px;
 }
 
-.header{
+.header {
   display: flex;
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 nav ul li {
@@ -39,17 +37,24 @@ nav ul li a:hover {
   color: #f00;
 }
 
-.active{
-  color:#f00;
+.active {
+  color: #f00;
   font-weight: bold;
-} 
+}
+
+.header-contact {
+  font-weight: bold;
+}
 
 .header-text {
   text-align: center;
 }
-  
-  /* Main styles */
-  /* Main styles */
+
+.header-text h1, .header-text p {
+  margin: 5px;
+}
+
+/* Main styles */
 
 main {
   margin: 50px;
@@ -60,7 +65,6 @@ main {
 .make-button {
   background-color: #7fe40c;
   padding: 10px;
-  margin: 10px;
   text-transform: uppercase;
   border-radius: 10px;
   text-decoration: none;
@@ -79,46 +83,60 @@ main {
   height: auto;
 }
 
-section.coastal-info{
+section.coastal-info {
   border: black 1px solid;
   margin-top: 20px;
   padding: 10px;
+  border-radius: 10px;
 }
 
-section.weather-info{
+section.weather-info {
   border: black 1px solid;
   margin-top: 20px;
   padding: 10px;
   display: flex;
   justify-content: space-around;
+  border-radius: 10px;
 }
 
-
-.dayforcast{
+.dayforcast {
   background-color: rgb(75, 195, 15);
   margin: 20px;
   padding: 5px;
   border-radius: 10px;
+  list-style-type: none;
 }
 
-section.drink-count{
+section.drink-count {
   border: #000000 1px solid;
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
+  border-radius: 10px;
 }
 
-section.social-media{
+section.social-media {
   border: black 1px solid;
   margin-top: 20px;
   padding: 10px;
   display: flex;
   justify-content: space-around;
+  border-radius: 10px;
 }
 
-.links{
+.social-media-links > h2 {
+  text-align: center;
+}
+
+.links {
   display: flex;
   justify-content: space-between;
+}
+
+.links > a {
+  text-decoration: none;
+  font-size: 25px;
+  margin: 10px;
 }
 
 .main-section {
@@ -159,43 +177,84 @@ section.social-media{
   font-weight: bold;
 }
 
-  
-  
-  /* footer */
-  footer {
-    margin-top: auto;
-    background-color: #f2f2f2;
-    padding: 20px;
+
+
+/* footer */
+footer {
+  margin-top: auto;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #7fe40c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links>ul {
+  display: flex;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-links>ul>li {
+  display: flex;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  color: #f00;
+}
+
+
+/* small devices (phone, 576px and up) */
+@media screen and (max-width: 680px) {
+  .footer-links>ul {
+    display: block;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #000000;
+  }
+
+  .header {
+    display: block;
     text-align: center;
   }
 
-  .footer-container{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  footer p {
-    margin: 0;
-  }
-  
-  footer a {
-    color: #7fe40c;
+  nav ul li a {
+    color: rgb(244, 234, 234);
     text-decoration: none;
-    transition: color 0.3s ease;
+    padding: 0;
   }
 
-  .footer-links > ul {
-    display: flex;
-    text-decoration: none;
-    margin: 0 5px;
-  }
 
-  .footer-links > ul > li {
-    display: flex;
+  .make-button {
+    background-color: #7fe40c;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
     text-decoration: none;
-    margin: 0 5px;
+    font-weight: bold;
+    margin-left: 25%;
+    color: #110ecc;
   }
-  
-  footer a:hover {
-    color: #f00;
-  }
+}

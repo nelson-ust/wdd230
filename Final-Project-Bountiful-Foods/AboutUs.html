@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Bountiful Foods</title>
     <link rel="stylesheet" href="./styles/AboutUs.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCC55dzD5z_AzBC5oq_AgozmCL_1zV_es"></script>
 </head>
 
-<body>
+<body  onload="initMap()">
     <header>
         <nav>
             <ul>
@@ -44,7 +45,7 @@
                 <h2>Contact Us</h2>
                 <p>If you have any questions or comments, please feel free to contact us using the information below:
                 </p>
-                <ul>
+                <ul class="contact-details">
                     <li><strong>Address:</strong> 123 Main Street, Carlsbad, CA 92008</li>
                     <li><strong>Phone:</strong> (555) 555-5555</li>
                     <li><strong>Email:</strong> info@bountifulfoods.com</li>
